@@ -24,6 +24,73 @@
   color: white;
 }
 
+/* .iq{
+  background-repeat: no-repeat;
+  background-image: url('../IQOO.jpg');
+  height: 50rem;
+  background-size: 100%;
+  align-items: center;
+} */
+
+.back2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-repeat: no-repeat;
+  background-image: url('../cubes.jpg');
+  height: 100vh; /* Full height of the viewport */
+  background-size: cover;
+  background-position: center;
+}
+
+.back1 {
+  background-repeat: no-repeat;
+  background-image: url('../cubes.jpg');
+  background-size: cover; /* Ensures the background image covers the entire element */
+  background-position: center; /* Centers the background image */
+  align-items: center;
+  min-height: 100vh; /* Sets a minimum height of 100% of the viewport height */
+}
+
+@media (min-width: 640px) {
+  .back1 {
+    height: 60rem; /* Adjust height for larger screens */
+  }
+}
+
+@media (min-width: 768px) {
+  .back1 {
+    height: 70rem; /* Further adjust height for tablets */
+  }
+}
+
+@media (min-width: 1024px) {
+  .back1 {
+    height: 80rem; /* Adjust height for larger tablets and small laptops */
+  }
+}
+
+@media (min-width: 1280px) {
+  .back1 {
+    height: 90rem; /* Adjust height for medium-sized laptops */
+  }
+}
+
+@media (min-width: 1536px) {
+  .back1 {
+    height: 100rem; /* Adjust height for larger screens and high-resolution displays */
+  }
+}
+
+
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+  .back1 {
+    height: 50rem; /* Adjust height for smaller screens */
+  }
+}
+
+
 .App-link {
   color: #61dafb;
 }
